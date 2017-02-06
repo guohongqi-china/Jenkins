@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="kev-RP-CgZ" customClass="popView">
+            <rect key="frame" x="0.0" y="0.0" width="282" height="122"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="popover_background" translatesAutoresizingMaskIntoConstraints="NO" id="gBr-Fj-Bcc">
+                    <rect key="frame" x="0.0" y="0.0" width="282" height="122"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBF-BH-ivm">
+                    <rect key="frame" x="0.0" y="66" width="282" height="56"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="审核退回">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sender:" destination="kev-RP-CgZ" eventType="touchUpInside" id="1OF-8N-qGr"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Z9-rT-XZZ">
+                    <rect key="frame" x="0.0" y="10" width="282" height="56"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="审核通过">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="sender:" destination="kev-RP-CgZ" eventType="touchUpInside" id="zXy-FL-TEE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gBr-Fj-Bcc" firstAttribute="top" secondItem="kev-RP-CgZ" secondAttribute="top" id="93k-gD-Sl3"/>
+                <constraint firstItem="oBF-BH-ivm" firstAttribute="height" secondItem="6Z9-rT-XZZ" secondAttribute="height" id="Aea-VT-c3u"/>
+                <constraint firstItem="oBF-BH-ivm" firstAttribute="leading" secondItem="kev-RP-CgZ" secondAttribute="leading" id="AhI-8a-Wwv"/>
+                <constraint firstAttribute="trailing" secondItem="oBF-BH-ivm" secondAttribute="trailing" id="GVz-gY-4Qp"/>
+                <constraint firstAttribute="trailing" secondItem="gBr-Fj-Bcc" secondAttribute="trailing" id="PbR-Sl-okc"/>
+                <constraint firstItem="6Z9-rT-XZZ" firstAttribute="leading" secondItem="kev-RP-CgZ" secondAttribute="leading" id="X5B-Z7-2qN"/>
+                <constraint firstItem="6Z9-rT-XZZ" firstAttribute="top" secondItem="kev-RP-CgZ" secondAttribute="top" constant="10" id="YYn-eH-OuF"/>
+                <constraint firstItem="gBr-Fj-Bcc" firstAttribute="leading" secondItem="kev-RP-CgZ" secondAttribute="leading" id="YeE-we-DoG"/>
+                <constraint firstAttribute="bottom" secondItem="gBr-Fj-Bcc" secondAttribute="bottom" id="cVI-Hh-59K"/>
+                <constraint firstItem="oBF-BH-ivm" firstAttribute="top" secondItem="6Z9-rT-XZZ" secondAttribute="bottom" id="hjK-Dp-5YC"/>
+                <constraint firstAttribute="trailing" secondItem="6Z9-rT-XZZ" secondAttribute="trailing" id="lSj-JD-rP7"/>
+                <constraint firstAttribute="bottom" secondItem="oBF-BH-ivm" secondAttribute="bottom" id="v54-oe-8RS"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="250" y="-28"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="popover_background" width="217" height="49"/>
+    </resources>
+</document>

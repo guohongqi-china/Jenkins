@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_animate.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ceo-Ue-oDh">
+                                <rect key="frame" x="84" y="209" width="152" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ceo-Ue-oDh" secondAttribute="height" multiplier="2.542:1" id="AVK-wD-QnO"/>
+                                    <constraint firstAttribute="height" constant="60" id="i9a-H0-ZcB"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5eM-vv-AzR">
+                                <rect key="frame" x="0.0" y="269" width="320" height="299"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.21176470588235294" green="0.40392156862745099" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="5eM-vv-AzR" firstAttribute="top" secondItem="Ceo-Ue-oDh" secondAttribute="bottom" id="3kK-AV-VwP"/>
+                            <constraint firstItem="5eM-vv-AzR" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="IXW-1Q-zIz"/>
+                            <constraint firstItem="Ceo-Ue-oDh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Kjh-MK-aNo"/>
+                            <constraint firstAttribute="trailing" secondItem="5eM-vv-AzR" secondAttribute="trailing" id="Pyf-0G-zFf"/>
+                            <constraint firstItem="5eM-vv-AzR" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.527:1" id="nVK-Fd-JJo"/>
+                            <constraint firstAttribute="bottom" secondItem="5eM-vv-AzR" secondAttribute="bottom" id="pFT-R9-Mhl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="330" y="351"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo_animate.png" width="152" height="60"/>
+    </resources>
+</document>

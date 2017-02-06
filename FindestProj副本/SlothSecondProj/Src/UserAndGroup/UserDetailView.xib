@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserDetailView">
+            <connections>
+                <outlet property="bgView" destination="UNH-8D-kbM" id="gyP-lD-8MY"/>
+                <outlet property="constraintBottom" destination="WLQ-05-E6g" id="iAF-Hm-rRE"/>
+                <outlet property="constraintTop" destination="yJj-gV-urT" id="44h-ZV-Nhw"/>
+                <outlet property="tableViewDetail" destination="Awd-D9-3wc" id="6Vl-bc-bXh"/>
+                <outlet property="view" destination="iN0-l3-epB" id="GDh-GX-kaX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e8u-nE-hKT" userLabel="Container View">
+                    <rect key="frame" x="27" y="53" width="266" height="462"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UNH-8D-kbM" userLabel="Background View">
+                            <rect key="frame" x="0.0" y="0.0" width="266" height="442"/>
+                            <subviews>
+                                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Awd-D9-3wc">
+                                    <rect key="frame" x="0.0" y="0.0" width="266" height="422"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <connections>
+                                        <outlet property="dataSource" destination="-1" id="oSi-go-EOx"/>
+                                        <outlet property="delegate" destination="-1" id="Klf-TD-UhE"/>
+                                    </connections>
+                                </tableView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="Awd-D9-3wc" secondAttribute="bottom" constant="20" id="XLC-vs-qK4"/>
+                                <constraint firstItem="Awd-D9-3wc" firstAttribute="leading" secondItem="UNH-8D-kbM" secondAttribute="leading" id="XlZ-CU-9t1"/>
+                                <constraint firstItem="Awd-D9-3wc" firstAttribute="top" secondItem="UNH-8D-kbM" secondAttribute="top" id="dVn-VC-LL4"/>
+                                <constraint firstAttribute="trailing" secondItem="Awd-D9-3wc" secondAttribute="trailing" id="kDq-mf-fZ4"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KPv-Z0-6my" userLabel="Clear Button">
+                            <rect key="frame" x="113" y="422" width="40" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="csp-wE-YfJ"/>
+                                <constraint firstAttribute="height" constant="40" id="gOT-uA-CJI"/>
+                            </constraints>
+                            <state key="normal" image="user_detail_close.png"/>
+                            <connections>
+                                <action selector="closeDetailView:" destination="-1" eventType="touchUpInside" id="pnR-5y-pFw"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="UNH-8D-kbM" secondAttribute="trailing" id="0sF-XM-iLp"/>
+                        <constraint firstAttribute="bottom" secondItem="KPv-Z0-6my" secondAttribute="bottom" id="1Wu-4B-w3a"/>
+                        <constraint firstItem="KPv-Z0-6my" firstAttribute="centerX" secondItem="e8u-nE-hKT" secondAttribute="centerX" id="XLP-5J-YJD"/>
+                        <constraint firstAttribute="bottom" secondItem="UNH-8D-kbM" secondAttribute="bottom" constant="20" id="aLp-88-bu4"/>
+                        <constraint firstItem="UNH-8D-kbM" firstAttribute="top" secondItem="e8u-nE-hKT" secondAttribute="top" id="lLT-Mc-FYf"/>
+                        <constraint firstItem="UNH-8D-kbM" firstAttribute="leading" secondItem="e8u-nE-hKT" secondAttribute="leading" id="naF-UX-r4G"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="e8u-nE-hKT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="27" id="K6R-01-Bhx"/>
+                <constraint firstAttribute="bottom" secondItem="e8u-nE-hKT" secondAttribute="bottom" constant="53" id="WLQ-05-E6g"/>
+                <constraint firstAttribute="trailing" secondItem="e8u-nE-hKT" secondAttribute="trailing" constant="27" id="azt-Ed-tHU"/>
+                <constraint firstItem="e8u-nE-hKT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="53" id="yJj-gV-urT"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="262" y="357"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="user_detail_close.png" width="28" height="29"/>
+    </resources>
+</document>

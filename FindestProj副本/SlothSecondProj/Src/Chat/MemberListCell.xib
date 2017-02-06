@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MemberListCell" id="wCy-bh-LYg" customClass="MemberListCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wCy-bh-LYg" id="2LA-yX-Oxn">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LRh-Du-3G0">
+                        <rect key="frame" x="15" y="9" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="ifS-PE-18g"/>
+                            <constraint firstAttribute="height" constant="36" id="rOh-vl-t4k"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kex-Wo-lyd">
+                        <rect key="frame" x="61" y="17" width="249" height="20"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Kex-Wo-lyd" firstAttribute="centerY" secondItem="2LA-yX-Oxn" secondAttribute="centerY" id="4Z7-T7-WAM"/>
+                    <constraint firstItem="Kex-Wo-lyd" firstAttribute="leading" secondItem="LRh-Du-3G0" secondAttribute="trailing" constant="10" id="Ejs-k5-qla"/>
+                    <constraint firstAttribute="trailing" secondItem="Kex-Wo-lyd" secondAttribute="trailing" constant="10" id="TgP-3v-6Fa"/>
+                    <constraint firstItem="LRh-Du-3G0" firstAttribute="leading" secondItem="2LA-yX-Oxn" secondAttribute="leading" constant="15" id="mVL-HE-94Q"/>
+                    <constraint firstItem="LRh-Du-3G0" firstAttribute="centerY" secondItem="2LA-yX-Oxn" secondAttribute="centerY" id="nMR-HI-tvu"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgViewHeader" destination="LRh-Du-3G0" id="4Db-gC-sxY"/>
+                <outlet property="lblName" destination="Kex-Wo-lyd" id="67K-q7-vq9"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

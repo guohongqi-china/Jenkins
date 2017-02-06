@@ -1,0 +1,115 @@
+/* 
+ SkinConfig2.strings
+ TaoZhiHuiProj
+ 
+ Created by 焱 孙 on 16/3/21.
+ Copyright © 2016年 visionet. All rights reserved.
+ */
+
+"Tab_Item_Color"="63,68,85,1.0";
+"Tab_Item_Color_H"="54,103,177,1.0";
+"Nav_Btn_Color"="133,141,158,1.0";
+"Nav_Btn_BK_Color"="36,41,54,1.0";
+"Nav_Btn_SIGN_BK_Color"="19,21,28,1.0";
+"Nav_Btn_Tint_Color"="63,68,85,1.0";
+"Nav_Btn_label_Color" = "134,141,159,1.0";
+"All_textField_bg_color" = "27,32,43,1.0";
+
+"Theme_Color"="27,32,43,1.0";
+"Menu_Title_Color"="134,141,159,1.0";
+"Content_Color"="119,119,127,1.0";
+"Function_BK_Color"="36,41,54,1.0";
+"Wire_Frame_Color"="28,32,43,1.0";
+"Nav_Bar_Title_Color"="134,141,159,1.0";
+"Page_BK_Color"="27,32,43,1.0";
+"Table_Selected_Color"="27, 53, 59, 1.0";
+"other_color" = "27,32,43,1.0";
+"other_other_color" = "36,41,54,1.0";
+"link_bg" = "36,41,54,1.0";
+
+"share_search_bg"="36,41,54,1.0";
+"share_search_bg_tintColor" = "239,111,88,1.0";
+"share_search_placderText_color" = "63,68,85,1.0";
+"share_btn_Color"="134,141,159,1.0";
+"share_cellArrow_color"="63,68,85,1.0";
+"Choose_User_Btn_bg_color" = "36,41,54,1.0";
+"Choose_User_Btn_title_color" = "134,141,159,1.0";
+"suggestion_Btn_select" = "27, 53, 59, 1.0";
+"Comment_Reply_Color" = "63, 68, 85, 1.0";
+"share_text_placeholderColor" = "63,68,85,1.0";//textView提示颜色
+"share_text_textColor" = "134,141,159,1.0";//textView字体颜色
+
+
+"publish_btn_bg" = "217,217,217,1.0";
+"Chat_Name_Label" = "134,141,159,1.0";
+"OrigAuthor_label_color" = "63,68,85,1.0";
+"viewOrigBK" = "36,41,54,0.2";
+"viewOrigBKBorder_color" = "36,41,54,1.0";
+
+
+
+"Notify_Date_Color" = "119,119,127,1.0";
+"Chat_bg_list" = "53,57,69,1.0";
+"message_color" = "36,41,54,1.0";
+
+
+"Comment_Number_Color" = "166,139,136,1.0";
+"Comment_Date_Color" = "63,68,85,1.0";
+"LotteryCommit_bottom_bg" = "27,32,43,1.0";
+
+"PublishView_BK_Color"="27,32,43,1.0";
+"PublishView_Title_Color"="134,141,159,1.0";
+"PublishView_Sep_Color"="40,44,58,1.0";
+
+"Share_Title_Color"="133,141,158,1.0";
+"Share_Content_Color"="119,119,127,1.0";
+"Share_Time"="97,100,118,1.0";
+"Share_Praise_Txt_Color"="63,68,85,1.0";
+"Share_Swipe_Title"="67,72,82,1.0";
+"Share_Swipe_Title_H"="133,141,158,1.0";
+"Share_Flow_BK"="23,26,32,1.0";
+"ShareView_Bottom_bg" = "36,41,54,1.0";
+"ShareView_Sep_bg" = "28,32,43,1.0";
+
+"meeting_view_bg" = "36,41,54,1.0";
+"metting_Tite_color" = "133,141,158,1.0";
+"Input_Title"= "63,68,85,1.0";
+"meeting_place_color" = "100,100,100,1.0";
+"deveice_btnColor" = "133,141,158,1.0";
+"date_title" = "100,100,100,1.0";
+"date_text" = "133,141,158,1.0";
+"meetingview_sep_color" = "36,41,54,1.0";
+"meetingPlacderColor" = "199,199,205,1.0";
+"meeting_circle_text_color"  = "133,141,158,1.0";
+"metting_Tite_Precolor" = "133,141,158,1.0";
+
+"myIconBorder_Color" = "36,41,54,1.0"; // 头像
+"myTableheaderBK" = "36,41,54,1.0"; //头部视图北京
+"myTbaleViewLine_BK_color" = "36,41,54,1.0";
+"myTbaleViewSegement_BK_color" = "133,141,158,1.0";
+"myButton_Color" = "133,141,158,1.0";
+"nameLabel_Color" = "133,141,158,1.0";
+"lblBeAttention_color" = "133,141,158,1.0";
+"lblBeAttention_back_color" = "119,119,127,1.0";
+"myLine_back_color" = "100,100,100,0.2";
+"UserDetailView_middle_color" = "27,32,43,1.0";
+
+"myjob_Button_title_color" = "134,141,159,1.0";
+"myjob_Button_BorderLayer_color" = "134,141,159,1.0";
+"myjob_Upload_Label_Tip_color" = "134,141,159,1.0";
+"myjob_Upload_Button_color" = "134,141,159,1.0";
+
+"mySuggestion_title_line" = "36,41,54,1.0";
+"mySuggestion_title" = "134,141,159,1.0";
+"mySuggestion_context" = "100,100,100,1.0";
+"mySuggestion_Problem" = "85,85, 85, 1.0";
+
+//积分
+"IntegrationCell_BK"="36,41,54,1.0";
+"IntegrationCurrent_BK" = "27,32,43,1.0";
+"IntegrationFooter_BK" = "27,32,43,1.0";
+"Integration_Title_Color"="134,141,159,1.0";
+"IntegrationTitleOther_color" = "134,141,159,1.0";
+
+//空白页
+"NoSearch_Text_Color"="133,141,158,1.0";

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BA90B4F0-EFD0-47D5-9FDD-EF17AE58635E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SlothSecondProj</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0D055925-B6D0-4BD5-A02E-1B18DDFE148A</key>
+		<string>http://192.168.16.9/svn/projects/iphone/SlothSecondProj/trunk/SlothSecondProj</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SlothSecondProj.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0D055925-B6D0-4BD5-A02E-1B18DDFE148A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>0D055925-B6D0-4BD5-A02E-1B18DDFE148A</key>
+		<string>http://192.168.16.9/svn/projects</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://192.168.16.9/svn/projects/iphone/SlothSecondProj/trunk/SlothSecondProj/SlothSecondProj.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0D055925-B6D0-4BD5-A02E-1B18DDFE148A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0D055925-B6D0-4BD5-A02E-1B18DDFE148A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SlothSecondProj</string>
+		</dict>
+	</array>
+</dict>
+</plist>

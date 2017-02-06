@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ChooseUserCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list_unselected.png" translatesAutoresizingMaskIntoConstraints="NO" id="8rx-O0-W1f">
+                        <rect key="frame" x="12" y="19" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="U2i-D1-JTH"/>
+                            <constraint firstAttribute="height" constant="22" id="V2m-jc-62B"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="YXQ-g2-7Pu">
+                        <rect key="frame" x="44" y="10" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="etg-No-SFz"/>
+                            <constraint firstAttribute="height" constant="40" id="w8d-0t-nqX"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dp-wT-muk">
+                        <rect key="frame" x="96" y="21" width="212" height="17"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                        <color key="textColor" red="0.20000000000000001" green="0.16862745098039217" blue="0.16078431372549018" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3dp-wT-muk" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="MEc-qE-t6R"/>
+                    <constraint firstAttribute="trailing" secondItem="3dp-wT-muk" secondAttribute="trailing" constant="12" id="OUr-f8-6Q5"/>
+                    <constraint firstItem="YXQ-g2-7Pu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="44" id="UpV-NO-eVl"/>
+                    <constraint firstItem="3dp-wT-muk" firstAttribute="leading" secondItem="YXQ-g2-7Pu" secondAttribute="trailing" constant="12" id="ZCQ-KJ-UvB"/>
+                    <constraint firstItem="8rx-O0-W1f" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="aKc-Xu-jkU"/>
+                    <constraint firstItem="8rx-O0-W1f" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="pVR-OC-eEx"/>
+                    <constraint firstItem="YXQ-g2-7Pu" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="typ-qS-rSy"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgViewCheck" destination="8rx-O0-W1f" id="NQ1-N5-4gh"/>
+                <outlet property="imgViewHeader" destination="YXQ-g2-7Pu" id="WoW-89-8lU"/>
+                <outlet property="lblName" destination="3dp-wT-muk" id="Ghh-x2-wgI"/>
+            </connections>
+            <point key="canvasLocation" x="380" y="161"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="list_unselected.png" width="22" height="22"/>
+    </resources>
+</document>
