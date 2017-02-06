@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="W1r-1g-k4Z">
+            <objects>
+                <viewController id="HJ5-En-Ihw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2nU-W5-Aw0"/>
+                        <viewControllerLayoutGuide type="bottom" id="wiO-Qa-EE6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oS6-tF-6GA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="91" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GXG-9V-Ghq">
+                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="91" id="nhl-G6-3EJ">
+                                        <rect key="frame" x="0.0" y="92" width="320" height="91"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nhl-G6-3EJ" id="5DC-D3-SRm">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalCompressionResistancePriority="751" misplaced="YES" text="内容HBase是一个分布式的、面向列的开源数据库，该技术来源于 Fay Chang 所撰写的Google论文“Bigtable：一个结构化数据的分布式存储系统”。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITl-g8-oWW">
+                                                    <rect key="frame" x="36" y="41" width="186" height="34"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="grab_ticket_success.png" translatesAutoresizingMaskIntoConstraints="NO" id="ww8-df-SK2">
+                                                    <rect key="frame" x="230" y="15" width="80" height="35"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notify_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="6ff-NX-mf6">
+                                                    <rect key="frame" x="8" y="14" width="20" height="20"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" misplaced="YES" text="工单号：12345678" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qz-L9-2Ka">
+                                                    <rect key="frame" x="36" y="15" width="186" height="18"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                                    <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="0qz-L9-2Ka" firstAttribute="top" secondItem="5DC-D3-SRm" secondAttribute="top" constant="15" id="2zN-NZ-W6q"/>
+                                                <constraint firstItem="ITl-g8-oWW" firstAttribute="top" secondItem="0qz-L9-2Ka" secondAttribute="bottom" constant="8" id="3u9-pg-1Hn"/>
+                                                <constraint firstItem="0qz-L9-2Ka" firstAttribute="trailing" secondItem="ITl-g8-oWW" secondAttribute="trailing" id="5Cc-Tb-N6c"/>
+                                                <constraint firstAttribute="trailing" secondItem="ww8-df-SK2" secondAttribute="trailing" constant="10" id="MOu-WL-oNq"/>
+                                                <constraint firstAttribute="bottom" secondItem="ITl-g8-oWW" secondAttribute="bottom" constant="15" id="TCP-Wc-piC"/>
+                                                <constraint firstItem="0qz-L9-2Ka" firstAttribute="leading" secondItem="ITl-g8-oWW" secondAttribute="leading" id="UYy-qZ-nga"/>
+                                                <constraint firstItem="6ff-NX-mf6" firstAttribute="leading" secondItem="5DC-D3-SRm" secondAttribute="leading" constant="8" id="dA4-MF-iw5"/>
+                                                <constraint firstItem="0qz-L9-2Ka" firstAttribute="leading" secondItem="6ff-NX-mf6" secondAttribute="trailing" constant="8" id="e1p-Yq-bPu"/>
+                                                <constraint firstItem="ww8-df-SK2" firstAttribute="top" secondItem="5DC-D3-SRm" secondAttribute="top" constant="15" id="gSM-B2-uVX"/>
+                                                <constraint firstItem="ww8-df-SK2" firstAttribute="leading" secondItem="0qz-L9-2Ka" secondAttribute="trailing" constant="8" id="kB3-Xe-FU0"/>
+                                                <constraint firstItem="0qz-L9-2Ka" firstAttribute="centerY" secondItem="6ff-NX-mf6" secondAttribute="centerY" id="qJ0-bg-A7S"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GXG-9V-Ghq" firstAttribute="top" secondItem="oS6-tF-6GA" secondAttribute="top" constant="44" id="Mar-BY-BM3"/>
+                            <constraint firstAttribute="trailing" secondItem="GXG-9V-Ghq" secondAttribute="trailing" id="San-AV-kaf"/>
+                            <constraint firstAttribute="bottom" secondItem="GXG-9V-Ghq" secondAttribute="bottom" id="hPq-oq-Peb"/>
+                            <constraint firstItem="GXG-9V-Ghq" firstAttribute="leading" secondItem="oS6-tF-6GA" secondAttribute="leading" id="w0f-yk-uc6"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eim-aa-Eby" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="189" y="372"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="grab_ticket_success.png" width="80" height="35"/>
+        <image name="notify_icon.png" width="20" height="20"/>
+    </resources>
+</document>

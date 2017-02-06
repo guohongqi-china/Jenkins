@@ -1,0 +1,13 @@
+
+platform :ios, '7.0'
+pod 'SDWebImage', '~> 3.7.6
+pod 'AFNetworking', '~> 2.6.2'
+pod 'SDWebImage', '~> 3.7.3'
+pod 'HMSegmentedControl', '~> 1.5.2'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'MGSwipeTableCell', '~> 1.5.1'
+pod 'MJRefresh', '~> 3.0.1'
+pod 'libextobjc', '~> 0.4.1'
+pod 'FDFullscreenPopGesture', '~> 1.1'
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.4.beta'
+pod 'Masonry', '~> 0.6.3'

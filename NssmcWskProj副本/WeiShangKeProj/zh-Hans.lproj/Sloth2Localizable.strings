@@ -1,0 +1,459 @@
+/* 
+  Sloth2Localizable.strings
+  SlothSecondProj
+
+  Created by 焱 孙 on 14-6-12.
+  Copyright (c) 2014年 visionet. All rights reserved.
+*/
+//Common Module
+"Common_App_Name"="知新2.0";
+"Common_SearchTitle"="搜索";
+"Common_SearchNoResult"="没有搜索到消息";
+"Common_Praise"="赞";//[Common localStr:@"Common_Praise" value:@"赞"]
+"Common_UnPraise"="取消赞";//[Common localStr:@"Common_Praise" value:@"赞"]
+"Common_Comment"="评论";//[Common localStr:@"Common_Comment" value:@"评论"]
+"Common_Comment_Brief"="评论";//[Common localStr:@"Common_Comment_Brief" value:@"评论"]
+"Common_Return"=" 返回";//[Common localStr:@"Common_Return" value:@" 返回"]
+"Common_NoResult"="无结果";
+"Common_Error_Request"="数据异常，请求失败";//[Common localStr:@"Common_Error_Request" value:@"数据异常，请求失败"]
+"Common_Error_AccessServer"="访问服务器出错,请稍后再试";
+"Common_Error_NetworkError"="网络错误,请重试";
+"Common_Error_ArticleDelete"="原文已被删除";
+"Common_NAV_Chat"="聊天";
+"Common_NAV_Send"="发送";//[Common localStr:@"Common_NAV_Send" value:@"发送"]
+"Common_Btn_Photos"="照片";//[Common localStr:@"Common_Btn_Photos" value:@"照片"]
+"Common_Btn_Camera"="拍照";//[Common localStr:@"Common_Btn_Camera" value:@"拍照"]
+"Common_Choose_Photo"="用户相册";//[Common localStr:@"Common_Choose_Photo" value:@"用户相册"]
+"Common_Cancel"="取消";//[Common localStr:@"Common_Cancel" value:@"取消"]
+"Common_OK"="确定";//[Common localStr:@"Common_OK" value:@"确定"]
+"Common_Save"="保存";//[Common localStr:@"Common_Save" value:@"保存"]
+"Common_Alert"="提示";//[Common localStr:@"Common_Alert" value:@"提示"]
+"Common_Warning"="警告";
+"Common_Yes"="是";
+"Common_No"="否";
+"Common_Good"="好";
+"Common_Delete"="删除";//[Common localStr:@"Common_Delete" value:@"删除"]
+"Common_Check_ContentEmpty"="内容不能为空";//[Common localStr:@"Common_Check_ContentEmpty" value:@"内容不能为空"]
+"Common_Call_Confirm"="您确定要呼叫";
+"Common_Hide_Detail"="隐藏详情";//[Common localStr:@"Common_Hide_Detail" value:@"隐藏详情"]
+"Common_Show_Detail"="显示详情";//[Common localStr:@"Common_Show_Detail" value:@"显示详情"]
+"Common_Like_Success"="点赞成功";//[Common localStr:@"Common_Like_Success" value:@"点赞成功"]
+"Common_Dislike_Success"="取消赞成功";//[Common localStr:@"Common_Dislike_Success" value:@"取消赞成功"]
+"Common_Content_Title"="主题";//[Common localStr:@"Common_Content_Title" value:@"主题"]
+"Common_Content"="正文";//[Common localStr:@"Common_Content" value:@"正文"]
+"Common_Preview"="预览";//[Common localStr:@"Common_Preview" value:@"预览"]
+"Common_Remove"="移除";//[Common localStr:@"Common_Remove" value:@"移除"]
+"Common_Upload_Tip"="最大允许上传附件个数为5个。";//[Common localStr:@"Common_Upload_Tip" value:@"最大允许上传附件个数为5个。"]
+"Common_Title_Tip"="主题不能为空";
+"Common_Content_Tip"="正文不能为空";
+"Common_Write_Comment"="写评论";//[Common localStr:@"Common_Write_Comment" value:@"写评论"]
+"Common_Forward"="转发";//[Common localStr:@"Common_Forward" value:@"转发"]
+"Common_Page_Loading"="页面载入中";
+"Common_Create"="创建";//[Common localStr:@"Common_Create" value:@"创建"]
+"Common_Edit"="编辑";//[Common localStr:@"Common_Edit" value:@"编辑"]
+"Common_Done"="完成";//[Common localStr:@"Common_Done" value:@"完成"]
+"Common_Attachment_Failure"="上传附件失败！";//[Common localStr:@"Common_Attachment_Failure" value:@"上传附件失败！"]
+"Common_Tag"="标签";
+"Common_Add_Tag"="添加标签";
+"Common_ShareToOther"="分享";//分享第三方平台
+"Common_Private_Camera"="请在iPhone的“设置-隐私-相机”选项中，允许%@访问你的相机。";//[Common localStr:@"Common_Private_Camera" value:@"请在iPhone的“设置-隐私-相机”选项中，允许%@访问你的相机。"]
+"Common_Private_Microphone"="请在iPhone的“设置-隐私-麦克风”选项中，允许%@访问你的手机麦克风。";
+"Common_Copy"="复制";
+"Common_Call"="拨号";
+"Common_Sina_Blog"="新浪微博";//[Common localStr:@"Common_Sina_Blog" value:@"新浪微博"]
+"Common_Attachment"="附件";
+"Common_View"="查看";
+"Common_Notice"="通知";
+"Common_Audio"="[语音]";
+"Common_Image"="[图片]";
+
+//Menu Module
+"Menu_Home"="首页";
+"Menu_Notify"="提醒";
+"Menu_User"="用户";
+"Menu_Group"="群组";
+"Menu_Album"="相册";
+"Menu_Document"="文档";
+"Menu_Collection"="收藏";
+"Menu_Setting"="设置";
+"Menu_Share"="分享";
+"Menu_Chat"="聊天";
+"Menu_Msg"="消息";
+"Menu_QA"="问答";
+"Menu_Activity"="活动";
+"MenuButton_Exit"="退出登录";
+
+//Login/Registe...
+"Login_Account"="用户名";
+"Login_Pwd"="密码";
+"Login_Action"="登录";
+"Login_RememberPwd"="记住密码";
+"Login_Activation"="激　活";
+"Login_RegainPwd"="找回密码?";
+"Login_CopyRight"="知新 版权所有";
+"Login_AccountEmpty"="用户名不能为空";
+"Login_PwdEmpty"="密码不能为空";
+"Login_Logging"="登录中...";
+"Login_FailureTip"="登录失败，请重试";
+"Login_UpdateTip"="知新2 iOS端发布了新版本，您确定要升级到最新应用?";
+"Login_UpdatingData"="更新数据中...";
+"Login_RegainPwd_Title"="找回密码";
+"Login_VerifyCode"=" 验 证 码";//[Common localStr:@"" value:@""]
+"Login_GetVerifyCode"="获取验证码";
+"Login_ResetPwd"="重置密码";
+"Login_RepeatPwd"="重复密码";
+"Login_PhoneTip"="请输入手机号";
+"Login_VerifyCodeTip"="请输入验证码";
+"Login_ResetPwdTip"="请输入重置密码";
+"Login_RepeatPwdTip"="请输入重复密码";
+"Login_PwdInconsistent"="重置密码与重复密码不一致";
+"Login_RegainPwdSuccess"="找回密码成功";
+"Login_ActivationRequire"="必填项";
+"Login_ActivationPwd"="密　　码";
+"Login_ActivationOptional"="选填项";
+"Login_ActivationEnterPwd"="请输入密码";
+"Login_ActivationCheckPwd"="密码与重复密码不一致";
+"Login_ActivationCheckNickname"="请输入昵称";
+"Login_Title"="微上客用户登录";
+
+//Share Module
+"Share_Title_All"="全部分享";
+"Share_Title"="内部分享";
+"Share_Title_Out"="信息流入";
+"Share_Title_Hot"="热门分享";
+"Share_Favourite"="收　藏";//[Common localStr:@"Share_Favourite" value:@"收　藏"]
+"Share_Unfavourite"="取消收藏";//[Common localStr:@"Share_Unfavourite" value:@"取消收藏"]
+"Share_Delete_Confirm"="你确认要删除该分享?";
+"Share_New"="发分享";
+"Comment_Delete_Confirm"="您确认要删除该评论？";
+"Comment_To_Respond"="回复评论";//[Common localStr:@"Comment_To_Respond" value:@"回复评论"]
+"Comment_Post"="发评论";//[Common localStr:@"Comment_Post" value:@"发评论"]
+"Comment_Say_FewWords"="说两句，转一下";
+
+//Activity
+"Activity_All"="全部活动";
+"Activity_Name"="活动";
+"Activity_Registration_Part"="报名项目";
+"Activity_Registration_Finished"="报名已经结束";
+"Activity_Registration_Started"="报名尚未开始";
+"Activity_Registration_Going"="报名正在进行";
+"Activity_Registration"="活动报名";
+"Activity_Real_Name"="真实姓名";
+"Activity_Phone_Num"="电话号码";
+"Activity_Work_Unit"="所属单位";
+"Activity_Position"="职位名称";
+"Activity_Start_Time"="报名开始时间";
+"Activity_End_Time"="报名结束时间";
+"Activity_Apply"="我要报名";
+"Activity_Success_Apply"="您已经成功报名";
+"Activity_RealName_Empty"="真实姓名不能为空";
+"Activity_Phone_Empty"="电话号码不能为空";
+"Activity_WorkUnit_Empty"="所属单位不能为空";
+"Activity_Position_Empty"="职位名称不能为空";
+"Activity_Registered_Users"="已报名用户";
+
+//Chat Module
+"Chat_Session_Title"="聊天";
+"Chat_NewChat"="发起聊天";
+"Chat_GroupTitle"="聊天详情";
+"Chat_SingleTitle"="聊天详情";
+"Chat_GroupChatName"="群聊名称";
+"Chat_Sticky"="置顶聊天";
+"Chat_Notification"="新消息通知";
+"Chat_Clear"="清空聊天记录";
+"Chat_DeleteAndExit"="删除并退出";
+"Chat_NotSet"="未命名";
+"Chat_DeleteTipInfo"="删除并退出后，将不再接收此群聊信息";
+"Chat_GroupName"="聊天组名称";
+"Chat_GroupName_Empty"="聊天组名称不允许为空";
+"Chat_GroupName_WordNumMax"="聊天组名称不允许超过50个字符";
+"Chat_AT_Somebody"="[有人@我]";
+"Chat_Delete"="确认要删除该聊天？";
+"Chat_CanNot_Send"="您已不在该聊天组，不能发信息";
+"Chat_Failed_Send"="发送失败";
+"Chat_Not_InGroup"="您已不在该聊天组";
+"Chat_Swith_Speaker"="已从听筒切换回扬声器播放";
+"Chat_Press_Speak"="按住 说话";
+"Chat_Release_Finish"="松开 结束";
+"Chat_Time_Short"="说话时间太短";
+"Chat_Slide_CancelSend"="手指上滑，取消发送";
+"Chat_Release_CancelSend"="松开手指，取消发送";
+"Chat_Select_Answer"="选择回复人";
+"Chat_Failure_Recording"="录音失败，请重新尝试";
+"Chat_NoMore_Text"="超过1000字限制，当前已输入%lu 个字";
+
+
+//Msg Module
+"Msg_Title_All"="我的所有消息";
+"Msg_Title_Private"="我的私人消息";
+"Msg_Title_Group"="我的群组消息";
+"Msg_Title_MySend"="我发送的消息";
+"Msg_Title_Star"="我的星标消息";
+"Msg_FilterBtn_Filter"="过滤";
+"Msg_FilterBtn_Invite"="日程";
+"Msg_FilterBtn_Vote"="投票";
+"Msg_FilterBtn_Prize"="奖品";
+"Msg_Label_FromGroup"="来自组";
+"Msg_Sender"="发件人";
+"Msg_DateTime"="时　间";
+"Msg_Receiver"="收件人";
+"Msg_Vote_Submit"="提交";
+"Msg_Vote_SubmitAnonymously"="匿名提交";
+"Msg_Schedule_Join"="参加";
+"Msg_Schedule_NotJoin"="不参加";
+"Msg_Schedule_NotSure"="不确定";
+"Msg_Vote_Select"="请选择投票项";
+"Msg_Vote_Success"="投票成功";
+"Msg_Schedule_JoinCalendar"="是否加入系统日历？";
+"Msg_Add_Star"="成功添加星标";
+"Msg_Remove_Star"="成功取消星标";
+"Msg_NotExist_Tip"="该消息不存在或已被删除！";
+"Msg_Delete_Confirm"="你确认要删除该消息？";
+"Msg_New_Message"="发消息";
+"Msg_CC"="抄送";
+"Msg_BC"="密送";
+"Msg_From"="转自";
+"Msg_All_People"="所有人";
+"Msg_Receiver_Empty"="收件人不能为空";
+"Msg_New_Agenda"="发日程";
+"Msg_Time_Empty"="时间不能为空";
+"Msg_DateTime"="时间";
+"Msg_Schedule_Place"="地点";
+"Msg_New_Poll"="发投票";
+"Msg_Vote_OptionNum"="有效的投票选项不能少于2项.";
+"Msg_Vote_Option"="投票选项";
+"Msg_VoteOption_Single"="单选";
+"Msg_VoteOption_Multiple"="多选";
+"Msg_Search_Title"="搜索发件人、收件群组、all(所有人)";
+"Msg_Attachments"="附　件";
+"Msg_Total_Num"="总数";
+"Msg_Remainder_Num"="剩余";
+"Msg_Winner"="中奖者";
+"Msg_No_Winner"="没有抽中奖";
+"Msg_Lottery_Deadline"="抽奖截止日期";
+"Msg_Lottery_Sponsor"="你是抽奖发起人";
+"Msg_Lottery_Expired"="该奖已过期";
+"Msg_Lottery_Draw"="抽  奖";
+"Msg_Lottery_Sorry"="很遗憾，您没有抽中！";
+"Msg_Lottery_Win"="恭喜你抽中了";
+"Msg_Vote_Limit1"="最少项数应小于或等于最多项数";
+"Msg_Vote_Limit2"="最少项数应大于0";
+"Msg_Vote_Limit3"="最少项数应小于投票项数";
+"Msg_Vote_Limit4"="多选题，限选%li项";
+"Msg_Vote_MinimumOptions"="最少选项数";
+"Msg_Vote_MaximumOptions"="最多选项数";
+
+//Q&A Module
+"QA_Title_Newest"="最新问题";
+"QA_Title_Hottest"="最热问题";
+"QA_Title_Unsolved"="未回答问题";
+"QA_Title_My"="我的问题";
+"QA_Label_Resolved"="已解决";
+"QA_Label_Unresolved"="未解决";
+"QA_Label_Answers"="个回答";
+"QA_Label_Answer"="个回答";
+"QA_Invite_Reply"="邀请回答";
+"QA_Add_Answer"="添加答案";
+"QA_Delete_Question"="是否删除此问题?";
+"QA_Delete_Answer"="是否删除此回答?";
+"QA_Invite_Success"="邀请成功";
+"QA_Question"="问题";
+"QA_Answer"="答案";
+"QA_Reply"="回复";
+"QA_Reply_All"="回复全部";
+"QA_Resolve_Success"="解决成功";
+"QA_Resolve_Failure"="解决失败";
+"QA_New_Question"="发问答";
+"QA_New_Description"="描述：";
+"QA_Description_Empty"="描述不能为空";
+"QA_Write_Answer"="回答";
+
+"QA_Submitted_Survey"="您已经提交问卷";
+"QA_Closed"="已关闭";
+"QA_Single_Choice"="单选题";
+"QA_Multiple_Choice"="多选题";
+"QA_Minimum_Items"="最少";
+"QA_Maximum_Items"="最多";
+"QA_Items"="项";
+"QA_Not_MoreItems"="不能超过最多选项";
+"QA_Please_Vote"="请选择投票项";
+"QA_Not_LessItems"="有效的投票选项不能少于2项";
+"QA_GiveUp_Vote"="你确认要放弃发表投票？";
+"QA_Enter_Question"="进入问卷答题";
+"QA_Questionnaire"="问卷调查";
+"QA_Start_Questionnaire"="开始答题";
+"QA_Back_Explanation"="返回说明";
+"QA_Last_Question"="上一题";
+"QA_Next_Question"="下一题";
+"QA_Submit_Question"="提交问卷";
+"QA_Confirm_Commit"="你确认要提交问卷？";
+"QA_Confirm_Exit"="你确认要退出问卷测试？";
+"QA_Question_Relate"="该题与上一题关联，不能选择上一题的答案";
+"QA_Vote_Successfully"="投票成功";
+"QA_Question_Num"="【第%li题】";
+
+
+//PullingRefreshTableView
+"RefreshTableView_Pull"="下拉可以刷新...";
+"RefreshTableView_Release"="松开即可刷新";
+"RefreshTableView_Loading"="载入中...";
+"RefreshTableView_ReleaseLoading"="松开加载更多...";
+"RefreshTableView_PullUp"="上拉可以加载更多...";
+"RefreshTableView_Loaded"="已全部加载完毕";
+"RefreshTableView_Today"="今天";
+"RefreshTableView_Yesterday"="昨天";
+"RefreshTableView_BYesterday"="前天";
+"RefreshTableView_Last"="最后更新：";
+
+//User and Group
+"UserGroup_SelectUser"="选择联系人";
+"UserGroup_SelectRecipients"="选择收件人";
+"UserGroup_SelectAllUser"="选择所有人";
+"UserGroup_SelectGroup"="选择群组";
+"UserGroup_SelectAllGroup"="选择所有群组";
+"UserGroup_ShowGroup"="显示群组";
+"UserGroup_ShowUser"="显示用户";
+"UserGroup_ShowSelected"="显示已选";
+"UserGroup_ShowAll"="显示全部";
+"UserGroup_Attention"="我关注的人";
+"UserGroup_AllUser"="全部用户";
+"UserGroup_SortByPoints"="按积分排序";
+"UserGroup_Points"="积分";
+"UserGroup_FollowUser"="关注用户";
+"UserGroup_UnfollowUser"="取消关注";
+"UserGroup_FollowSuccess"="关注成功";
+"UserGroup_CancelSuccess"="取消成功";
+"UserGroup_SendMessage"="发消息";
+"UserGroup_Chat"="聊天";
+"UserGroup_UserDetail"="详情\r\n资料";
+"UserGroup_DetailInfo"="详情资料";//[Common localStr:@"" value:@""]
+"UserGroup_Avatar"="头像";
+"UserGroup_Nickname"="昵　　称";
+"UserGroup_DateOfBirth"="生　　日";
+"UserGroup_Gender"="性　　别";
+"UserGroup_JobTitle"="职　　务";
+"UserGroup_PhoneNumber"="手　　机";
+"UserGroup_IM"="Q   Q";
+"UserGroup_Email"="邮　　箱";
+"UserGroup_Address"="地　　址";
+"UserGroup_Signature"="签　　名";
+"UserGroup_GenderMale"="男";
+"UserGroup_GenderFemale"="女";
+"UserGroup_EditProfile"="编辑资料";
+"UserGroup_ChangeAvatar"="修改头像";
+"UserGroup_PublicPhone"="是否公开手机";
+"UserGroup_ChangePwd"="修改密码";
+"UserGroup_Name_Empty"="姓名不能为空";
+"UserGroup_EditProfileSuccess"="修改个人信息成功";
+"UserGroup_ChangeGender"="性别修改";
+"UserGroup_OldPassword"="当前密码";
+"UserGroup_NewPassword"="新 密 码";
+"UserGroup_ConfirmPassword"="确认密码";
+"UserGroup_OldPasswordEmpty"="当前密码不能为空";
+"UserGroup_OldPasswordError"="当前密码不正确";
+"UserGroup_NewPwdEmpty"="新密码不能为空";
+"UserGroup_ConfirmPwdEmpty"="确认密码不能为空";
+"UserGroup_PwdDiff"="新密码与确认密码不一致";
+"UserGroup_ChangePwdSuccess"="密码修改成功";
+"UserGroup_AllGroup"="全部群组";//[Common localStr:@"" value:@""]
+"UserGroup_CreatedGroup"="我创建的群组";
+"UserGroup_JoinedGroup"="我参与的群组";
+"UserGroup_OtherGroup"="其它群组";
+"UserGroup_AllowJoin"="允许加入";
+"UserGroup_NotAllowJoin"="不允许加入";
+"UserGroup_Person"="人";
+"UserGroup_SelectGroupMem"="选择群组成员";
+"UserGroup_All"="全部";//[Common localStr:@"UserGroup_All" value:@"全部"]
+"UserGroup_Selected"="已选";
+"UserGroup_SelectMem"="请选择成员";
+"UserGroup_NotSelOwn"="群主不能选择";
+"UserGroup_Detail"="详情";
+"UserGroup_GroupMem"="群组成员";
+"UserGroup_TransferGroup"="您确定要转让该群组到用户";
+"UserGroup_MyPost"="我的分享";
+"UserGroup_SomeOnePost"="的分享";
+"UserGroup_MyQA"="我的问答";
+"UserGroup_SomeOneQA"="的问答";
+"UserGroup_GroupName"="群名称";
+"UserGroup_GroupCanSee"="权限　群外人可以看到本群";
+"UserGroup_GroupCanJoin"="　　　群外人可以自由加入本群";
+"UserGroup_GroupMem"="群成员";
+"UserGroup_Member"="成员";
+"UserGroup_CreateGroup"="创建群组";
+"UserGroup_EditGroup"="编辑群组";
+"UserGroup_GroupNameEmpty"="群组名称不能为空";
+"UserGroup_CreateGroupTip"="创建群组成功";
+"UserGroup_EditGroupTip"="修改群组成功";
+"UserGroup_GroupOwner"="群主";
+"UserGroup_TransferGroup"="转让群组";
+"UserGroup_DismissGroup"="解散群组";
+"UserGroup_ExitGroup"="退出群组";
+"UserGroup_JoinGroup"="加入群组";
+"UserGroup_DismissAsk"="您确定要解散该群组吗？";
+"UserGroup_DismissSuccess"="解散群组成功";
+"UserGroup_ExitAsk"="您确定要退出该群组吗？";
+"UserGroup_ExitSuccess"="退出群组成功";
+"UserGroup_TransferSuccess"="转让群组成功";//[Common localStr:@"" value:@""]
+"UserGroup_PersonalProfile"="资料";
+"UserGroup_PhoneUnpublic"="没有公开";
+
+//Reminder
+"Reminder_My"="我的提醒";
+"Reminder_Group"="群组提醒";
+"Reminder_SetAllRead"="全部标记为已读";
+
+//Albums
+"Albums_My"="我的相册";
+"Albums_Common"="公共相册";
+"Albums_Group"="群组相册";
+"Albums_Create"="创建相册";
+"Albums_SomeOne"="的相册";
+"Albums_Check_Delete"="你确定要删除该相册?";
+"Albums_CheckNum_Delete1"="你确定要删除该相册,该相册包含了 ";
+"Albums_CheckNum_Delete2"=" 张相片？";//单数
+"Albums_CheckNum_Delete3"=" 张相片？";//复数
+"Albums_Photo_Upload"="上传相片";
+"Albums_Photo_Delete"="你确定要删除该图片?";
+"Albums_Check_Name"="请输入相册名称";
+"Albums_Create_Title"="创建相册";
+"Albums_AlbumRename"="更改相册名称";
+"Albums_Name_Empty"="相册名不能为空";
+
+//Documents
+"Documents_My"="我的文档";
+"Documents_Common"="公共文档";
+"Documents_CreateDirectory"="创建目录";
+"Documents_DirectoryRename"="改名";
+"Documents_DirectoryDelete"="你确定要删除该文件目录?";
+"Documents_FileDelete"="你确定要删除该文件?";
+"Documents_UploadVideo"="上传视频";
+"Documents_DirectoryName_Check"="请输入文件夹名称";//[Common localStr:@"" value:@""]
+"Documents_DirectoryRename_Title"="更改目录名称";
+"Documents_DirectoryName_Empty"="文件夹名称不能为空";
+"Documents_OpenFile_WithOtherApp"="用其他应用打开";
+"Documents_ResumeDownload"="恢复下载";
+"Documents_DownloadFile"="下载文件";
+
+//My Favourite
+"MyFavourite_Articles"="收藏的分享";
+"MyFavourite_Questions"="收藏的问答";
+
+//Setting
+"Setting_Clear_Cache"="清除缓存";
+"Setting_Help_Center"="帮助中心";
+"Setting_Language"="多语言";
+"Setting_SystemLanguage"="跟随系统";
+"Setting_About_Sloth2"="关于知新2";
+"Setting_Check_ClearCache"="你确定要清除缓存？";
+"Setting_About_Title"="知新 2";
+"Setting_About_Version"="iPhone版";
+"Setting_About_Content"="社区化知识平台是针对关注知识管理、知识分享的企事业单位的平台，它是一个自由度更大，组织能力 更强的交流分享工具，采用创新的沟通方式，突破时间的空间的限制，提高沟通效率。我们的目标是帮助 企业实现知识的积累和挖掘内部人才的潜力，帮助员工展示自我价值、提升专业能力。";
+
+
+
+
+
+
+
+
+

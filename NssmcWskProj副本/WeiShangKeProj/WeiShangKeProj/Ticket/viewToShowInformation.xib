@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8rX-Pm-9HF" customClass="viewToShowInformation">
+            <rect key="frame" x="0.0" y="0.0" width="325" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BOf-p1-BTA">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="M62-gB-pf7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0W-Ec-Y2o">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AbV-jd-BN0">
+                    <color key="backgroundColor" red="0.70196080207824707" green="0.70196080207824707" blue="0.70196080207824707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="9Oh-qC-L5Q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="r0W-Ec-Y2o" firstAttribute="centerY" secondItem="BOf-p1-BTA" secondAttribute="centerY" id="6Ow-RU-lx6"/>
+                <constraint firstAttribute="trailing" secondItem="AbV-jd-BN0" secondAttribute="trailing" constant="5" id="Dtr-kM-Avm"/>
+                <constraint firstItem="AbV-jd-BN0" firstAttribute="top" secondItem="r0W-Ec-Y2o" secondAttribute="bottom" constant="3" id="N1U-DJ-3zP"/>
+                <constraint firstItem="r0W-Ec-Y2o" firstAttribute="baseline" secondItem="BOf-p1-BTA" secondAttribute="firstBaseline" id="OJR-zg-6V6"/>
+                <constraint firstItem="BOf-p1-BTA" firstAttribute="leading" secondItem="8rX-Pm-9HF" secondAttribute="leading" constant="10" id="Pn8-UY-c95"/>
+                <constraint firstItem="r0W-Ec-Y2o" firstAttribute="centerY" secondItem="8rX-Pm-9HF" secondAttribute="centerY" id="WgB-Ef-Cqo"/>
+                <constraint firstAttribute="trailing" secondItem="r0W-Ec-Y2o" secondAttribute="trailing" constant="10" id="hwp-HM-2Db"/>
+                <constraint firstItem="AbV-jd-BN0" firstAttribute="leading" secondItem="8rX-Pm-9HF" secondAttribute="leading" constant="5" id="rjY-rz-ldR"/>
+                <constraint firstItem="r0W-Ec-Y2o" firstAttribute="baseline" secondItem="BOf-p1-BTA" secondAttribute="baseline" id="tez-h7-c5B"/>
+                <constraint firstItem="r0W-Ec-Y2o" firstAttribute="leading" secondItem="BOf-p1-BTA" secondAttribute="trailing" constant="10" id="wnl-1w-QqN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="informationLabel" destination="BOf-p1-BTA" id="Jpo-w9-ygV"/>
+                <outlet property="lineLabel" destination="AbV-jd-BN0" id="qgf-qK-3EH"/>
+                <outlet property="textContentLabel" destination="r0W-Ec-Y2o" id="g3W-SD-PVU"/>
+            </connections>
+            <point key="canvasLocation" x="31.5" y="104"/>
+        </view>
+    </objects>
+</document>

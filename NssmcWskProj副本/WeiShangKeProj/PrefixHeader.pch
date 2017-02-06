@@ -1,0 +1,141 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "ServerReturnInfo.h"
+    #import "AppDelegate.h"
+    #import "BusinessCommon.h"
+    #import "Common.h"
+    #import "MJExtension.h"
+
+    #import "NoticeNumView.h"
+     #import <AFNetworking.h>
+    #import "UINavigationController+FDFullscreenPopGesture.h"
+
+    #import "UIView+Extension.h"
+    #import "MJRefresh.h"
+//#import "NSObject+MJKeyValue.h"
+     #import <AFNetworking.h>
+#import <SDWebImageManager.h>
+
+    //Masonry
+    //define this constant if you want to use Masonry without the 'mas_' prefix
+    //#define MAS_SHORTHAND
+    //define this constant if you want to enable auto-boxing for default syntax
+    #define MAS_SHORTHAND_GLOBALS
+    #import "Masonry.h"
+#endif
+
+#define COLOR(R,G,B,A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
+
+#ifdef DEBUG
+#	define DLog(fmt, ...) NSLog((fmt),##__VA_ARGS__)
+#else
+#	define DLog(...)
+#endif
+#define NSNotificationCenterName @"NSNotificationCenterName"
+//即时聊天文本长度
+#define CHAT_CONTENT_LENGTH 1000
+#define PAGE_DOWN @"down"
+#define PAGE_UP @"up"
+//主题颜色
+#define THEME_COLOR [UIColor colorWithRed:23/255.0 green:162/255.0 blue:133/255.0 alpha:1.0f]
+//知新2的蓝
+#define SLOTH_BLUE [UIColor colorWithRed:51/255.0 green:149/255.0 blue:215/255.0 alpha:1.0f]
+#define SLOTH_GRAY [UIColor colorWithRed:129.0/255.0 green:129.0/255.0 blue:129.0/255.0 alpha:1.0f]
+#define TABLEVIEW_SELECTED_COLOR [UIColor colorWithRed:220/255.0 green:220/255.0 blue:220/255.0 alpha:0.5f];
+#define BG_COLOR [UIColor colorWithRed:238.0/255.0 green:238.0/255.0 blue:238.0/255.0 alpha:1.0f]
+
+#define KEYBOARD_HEIGHT 216.0
+#define TOOL_VIEW_HEIGHT 169.0
+
+//抽屉模块的侧边栏宽度
+#define DRAWER_LEFT_WIDTH 253
+
+#define PADDING_TOP 10
+#define PADDING_Y 5
+#define PADDING_X 5
+#define IMAGE_HEAD_MIDDLE 45
+#define IMAGE_HEAD_SMALL 35
+#define IMAGE_BLOG_THUMB 76
+#define IMAGE_CHAT_THUMB 200
+#define IMAGE_MAX_SIZE 1200      //上传图片的缩放最大尺寸(宽高)
+
+#define IMAGE_CONTACT_MIDDLE 50
+
+#define FONT_BIG [UIFont systemFontOfSize:18]
+#define FONT_NORMAL [UIFont systemFontOfSize:17]
+#define FONT_MIDDLE [UIFont systemFontOfSize:16]
+#define FONT_QUOTE [UIFont systemFontOfSize:15]
+#define FONT_SMALL [UIFont systemFontOfSize:12]
+
+#define ORIG_DELETE_CONTENT [Common localStr:@"Common_Error_ArticleDelete" value:@"原文已被删除"]
+#define PHONE_UNPUBLIC_DES [Common localStr:@"UserGroup_PhoneUnpublic" value:@"没有公开"]
+
+#define NOTIFY_DETAIL_IMAGE         @"DETAIL_IMAGE"
+#define NOTIFY_COMMENT_BLOG         @"COMMENT_BLOG"
+#define NOTIFY_DELETE_BLOG          @"DELETE_BLOG"
+#define NOTIFY_REFRESH_BLOG         @"REFRESH_BLOG"
+#define NOTIFY_REFRESH_TOPIC        @"REFRESH_TOPIC"
+#define NOTIFY_REFRESH_VOICE_LIST           @"REFRESH_VOICE_LIST"               //刷新最近语音列表
+#define JPUSH_FIRST_START                   @"JPUSH_FIRST_START"                //通过JPush的第一次启动应用
+#define NOTIFY_JPUSH_OTHER                  @"NOTIFY_JPUSH_OTHER"               //通过JPush的非一次启动应用
+#define NOTIFY_JPUSH_BROADCAST              @"NOTIFY_JPUSH_BROADCAST"           //通过JPush的广播推送
+#define NOTIFY_REFRESH_PERSONALINFO         @"NOTIFY_REFRESH_PERSONALINFO"
+#define NOTIFY_LOCATION_INFO                @"NOTIFY_LOCATION_INFO"
+#define NOTIFY_VOTE_OPTION                  @"NOTIFY_VOTE_OPTION"               //投票通知
+
+#define NOTIFY_REFRESH_LANGUAGE             @"NOTIFY_REFRESH_LANGUAGE"          //刷新语言设置
+
+#define JPUSH_REFRESH_CHATLIST              @"JPUSH_REFRESH_CHATLIST"           //刷新聊天人列表
+#define JPUSH_REFRESH_CHATCONTENT           @"JPUSH_REFRESH_CHATCONTENT"        //刷新聊天内容界面
+#define JPUSH_REFRESH_CHATINFO              @"JPUSH_REFRESH_CHATINFO"           //刷新聊天设置界面
+
+//web socket
+#define WS_RECEIVE_MSG           @"WS_RECEIVE_MSG"                          //收到WebSocket新消息推送
+
+//send blog
+#define NOTIFY_POST_BLOG                    @"NOTIFY_POST_BLOG"         //发表文章
+#define NOTIFY_POST_SCHEDULE                @"NOTIFY_POST_SCHEDULE"     //发表日程
+#define NOTIFY_POST_VOTE                    @"NOTIFY_POST_VOTE"         //发表投票
+
+//error info
+#define ERROR_TO_SERVER [Common localStr:@"Common_Error_AccessServer" value:@"访问服务器出错,请稍后再试"]
+#define ERROR_TO_NETWORK [Common localStr:@"Common_Error_NetworkError" value:@"网络错误,请重试"]
+
+//Navigation Bar height,left
+#define NAV_BTN_Y_OFFSET    5.5
+#define NAV_BTN_X_OFFSET    5
+
+//HTTP Status Code
+#define HTTP_STATUS_OK  200
+
+//fontName
+#define APP_FONT_NAME @"Helvetica"
+
+//侧边栏的消息操作
+#define kDrawerOpenLeftSide              @"kDrawerOpenLeftSide"
+#define kDrawerCloseLeftSide             @"kDrawerCloseLeftSide"
+#define kDrawerAddPanGesture             @"kDrawerAddPanGesture"
+#define kDrawerRemovePanGesture          @"kDrawerRemovePanGesture"
+
+#ifndef PJ_AUTOCONF
+#define PJ_AUTOCONF 1
+#endif
+
+
+
+
+
+
